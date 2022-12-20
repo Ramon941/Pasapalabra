@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pasapalabra</title>
+	<link rel="stylesheet" href="pasapalabra.css">
+	<script defer src="pasapalabra.js"></script>
+	<link rel="shortcut icon"
+		href="https://nuestravozenlaredblog.files.wordpress.com/2015/11/pasapal.jpg"/>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+	<section class="juego">
+		<div class="circulo">
+			<div class="titulo-container">
+				<p class="titulo">PASAPALABRA</p>
+			</div>
+			<ul class="rosco">
+				<li class="item">A</li>
+				<li class="item">B</li>
+				<li class="item">C</li>
+				<li class="item">D</li>
+				<li class="item">E</li>
+				<li class="item">F</li>
+				<li class="item">G</li>
+				<li class="item">H</li>
+				<li class="item">I</li>
+				<li class="item">J</li>
+				<li class="item">K</li>
+				<li class="item">L</li>
+				<li class="item">M</li>
+				<li class="item">N</li>
+				<li class="item">O</li>
+				<li class="item">P</li>
+				<li class="item">Q</li>
+				<li class="item">R</li>
+				<li class="item">S</li>
+				<li class="item">T</li>
+				<li class="item">U</li>
+				<li class="item">V</li>
+				<li class="item">W</li>
+				<li class="item">X</li>
+				<li class="item">Y</li>
+				<li class="item">Z</li>
+			</ul>
+			
+		</div>
+		<div class="Pregunta" id="pregunta">
+			Pregunta
+		</div>
+		<br>
+		<p id="answer">Respuesta: <input id="respuesta" type="text" placeholder="" /></p>
+		<input class="button" type="submit" name="" value="Enviar" onclick="validar()">
+		<input class="buttonP" type="submit" name="" value="Pasapalabra" onclick="pasapalabra()">
+		<ul class="scoreboard">
+			<li id="puntuacion" class="score" href="">0</li>
+			<li id="reloj" class="scoreT" href="" onclick="timer()">300</li>
+		</ul>
+	</section>
+</body>
+</html>

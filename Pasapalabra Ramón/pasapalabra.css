@@ -1,0 +1,353 @@
+body {
+    background-image: url("https://www.123freevectors.com/ezoimgfmt/i2.wp.com/files.123freevectors.com/wp-content/original/152766-abstract-orange-and-white-random-alphabet-background.jpg?w=800&q=95&ezimgfmt=rs:668x376/rscb2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-bottom: -50px;
+}
+
+#made {
+    text-align: center;
+}
+
+.circulo {
+    padding-top: 2em;
+    width: 100%;
+}
+
+#respuesta {
+    height: 20px;
+    border: 2px solid black;
+}
+
+#answer {
+    font-size: 1.4rem;
+}
+
+.titulo {
+    font-size: 2.2rem;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #18b82b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Boton Pasapalabra */
+
+.buttonP {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(85, 85, 255);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttonP span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonP span:after {
+    content: '\00bb';
+    /* Entidades CSS. Para usar entidades HTML, use &#8594;*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonP:hover span {
+    padding-right: 25px;
+}
+
+.buttonP:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#pregunta {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Pregunta {
+    border: 10px inset #18b82b;
+    background-color: #dbfddd;
+}
+
+@media (min-width: 54.75px) {
+    .rosco-container {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding-top: 0;
+    }
+}
+
+.rosco {
+    position: relative;
+    width: 21.375px;
+    height: 21.375px;
+    border-radius: 50%;
+    padding: 0;
+    list-style: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rosco>* {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.25px;
+    height: 1.25px;
+    margin: -0.625px;
+}
+
+@media (min-width: 54.75em) {
+    .rosco {
+        position: relative;
+        width: 22.5em;
+        height: 22.5em;
+        border-radius: 50%;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .rosco>* {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 2.25em;
+        height: 2.25em;
+        margin: -1.125em;
+    }
+
+    .rosco>*:nth-of-type(1) {
+        transform: rotate(270deg) translate(10.817em) rotate(-270deg);
+    }
+    .rosco>*:nth-of-type(2) {
+        transform: rotate(283.8deg) translate(10.817em) rotate(-283.8deg);
+    }
+    .rosco>*:nth-of-type(3) {
+        transform: rotate(297.7deg) translate(10.817em) rotate(-297.7deg);
+    }
+    .rosco>*:nth-of-type(4) {
+        transform: rotate(311.5deg) translate(10.817em) rotate(-311.5deg);
+    }
+    .rosco>*:nth-of-type(5) {
+        transform: rotate(325.4deg) translate(10.817em) rotate(-325.4deg);
+    }
+    .rosco>*:nth-of-type(6) {
+        transform: rotate(339.2deg) translate(10.817em) rotate(-339.2deg);
+    }
+    .rosco>*:nth-of-type(7) {
+        transform: rotate(353.07deg) translate(10.817em) rotate(-353.07deg);
+    }
+    .rosco>*:nth-of-type(8) {
+        transform: rotate(366.9deg) translate(10.817em) rotate(-366.9deg);
+    }
+    .rosco>*:nth-of-type(9) {
+        transform: rotate(380.77deg) translate(10.817em) rotate(-380.77deg);
+    }
+    .rosco>*:nth-of-type(10) {
+        transform: rotate(394.6deg) translate(10.817em) rotate(-394.6deg);
+    }
+    .rosco>*:nth-of-type(11) {
+        transform: rotate(408.46deg) translate(10.817em) rotate(-408.46deg);
+    }
+    .rosco>*:nth-of-type(12) {
+        transform: rotate(422.3deg) translate(10.817em) rotate(-422.3deg);
+    }
+    .rosco>*:nth-of-type(13) {
+        transform: rotate(436.15deg) translate(10.817em) rotate(-436.15deg);
+    }
+    .rosco>*:nth-of-type(14) {
+        transform: rotate(450deg) translate(10.817em) rotate(-450deg);
+    }
+    .rosco>*:nth-of-type(15) {
+        transform: rotate(463.8deg) translate(10.817em) rotate(-463.8deg);
+    }
+    .rosco>*:nth-of-type(16) {
+        transform: rotate(477.69deg) translate(10.817em) rotate(-477.69deg);
+    }
+    .rosco>*:nth-of-type(17) {
+        transform: rotate(491.53deg) translate(10.817em) rotate(-491.53deg);
+    }
+    .rosco>*:nth-of-type(18) {
+        transform: rotate(505.38deg) translate(10.817em) rotate(-505.38deg);
+    }
+    .rosco>*:nth-of-type(19) {
+        transform: rotate(519.2deg) translate(10.817em) rotate(-519.2deg);
+    }
+    .rosco>*:nth-of-type(20) {
+        transform: rotate(533.07deg) translate(10.817em) rotate(-533.07deg);
+    }
+    .rosco>*:nth-of-type(21) {
+        transform: rotate(546.92deg) translate(10.817em) rotate(-546.92deg);
+    }
+    .rosco>*:nth-of-type(22) {
+        transform: rotate(560.76deg) translate(10.817em) rotate(-560.76deg);
+    }
+    .rosco>*:nth-of-type(23) {
+        transform: rotate(574.61deg) translate(10.817em) rotate(-574.61deg);
+    }
+    .rosco>*:nth-of-type(24) {
+        transform: rotate(588.46deg) translate(10.817em) rotate(-588.46deg);
+    }
+    .rosco>*:nth-of-type(25) {
+        transform: rotate(602.3deg) translate(10.817em) rotate(-602.3deg);
+    }
+    .rosco>*:nth-of-type(26) {
+        transform: rotate(616.15deg) translate(10.817em) rotate(-616.15deg);
+    }
+}
+
+.rosco .item {
+    display: block;
+    width: 2.30em;
+    height: 2.30em;
+    transition: all .3s ease-in-out;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 255);
+    color: #fff;
+    line-height: 2.25em;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+}
+
+.titulo-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+@media (min-width: 54.75em) {
+    .titulo-container {
+        top: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.titulo-container .title {
+    display: none;
+}
+
+@media (min-width: 54.75em) {
+    .titulo-container .title {
+        font-size: 2.5rem;
+        display: block;
+    }
+}
+
+.scoreboard {
+    margin: 0 0 1em 2em;
+    padding: 0;
+    list-style: none;
+}
+
+@media (min-width: 54.75em) {
+    .scoreboard {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.scoreboard .score {
+    display: block;
+    width: 2.8125em;
+    height: 1.5875em;
+    margin-top: .5em;
+    border: 2px solid #fff;
+    background-image: radial-gradient(circle, #0074d9, #004b8d);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 1.6875em;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+    border-radius: 20%;
+}
+
+.scoreboard .scoreT {
+    display: block;
+    width: 2.8125em;
+    height: 1.5875em;
+    margin-top: .5em;
+    border: 2px solid #fff;
+    background-image: radial-gradient(circle, #c700d9, #5c008d);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 1.6875em;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+    border-radius: 20%;
+}
